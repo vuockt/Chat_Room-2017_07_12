@@ -1,0 +1,37 @@
+* {
+	padding:0;
+	margin:0;
+}
+
+#page {
+	width:800px;
+	height:500px;
+	margin: 10px auto;
+	border: black 2px solid;
+	border-collapse: collapse;
+}
+
+#page>tbody>tr>td {
+	border: black 2px solid;
+}
+
+#page>tbody>tr>td:first-child {
+	width:600px;
+}
+
+#onlineList, #offlineList {
+	margin-left: 30px;
+}
+
+.panel {
+    border: 2px solid #0078ae;
+    border-radius: 5px;
+    width:100%;
+}
+
+.message-area {
+    height: 100%;
+    resize: none;
+    box-sizing: border-box;
+    overflow: auto;
+}
